@@ -3,7 +3,6 @@ package com.studentRegistration.model;
 import java.time.LocalDate;
 
 public class Course {
-
     private Long id;
     private String name;
     private LocalDate startDate;
