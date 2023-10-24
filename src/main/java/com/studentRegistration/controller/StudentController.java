@@ -20,7 +20,7 @@ public class StudentController {
         return studentService.createStudent(student);
     }
 
-    @GetMapping(value = "student/{studentId}")
+    @GetMapping(value = "/{studentId}")
     public Student getStudentById(@PathVariable Long studentId){
         return studentService.getStudentById(studentId);
     }
